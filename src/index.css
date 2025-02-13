@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: "Kanit", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+   font-family: "Kanit", serif;
+ }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media only screen and (max-width: 768px) {
+  .ant-form-item .ant-form-item-label >label {
+    color: rgba(255, 255, 255, 0.88);
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 0;
+  }
+  
+}
+
+.ant-form-item .ant-form-item-label >label {
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 3;
+}
+
+.memo-title-count {
+  font-size: 16px;
+}
+
+.memo-title {
+  font-size: 6vh;
+}
